@@ -51,5 +51,9 @@ export default {
     */
     extend(config, ctx) {
     }
-  }
+  },
+  /*
+  ** Source directory configuration
+  */
+  srcDir: 'src',
 }
