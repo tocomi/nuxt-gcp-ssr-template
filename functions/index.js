@@ -10,7 +10,6 @@ const nuxt = new Nuxt({
 })
 
 app.use((request, response) => {
-  console.log("FIREBASE!!!!!!!!!!!!!!!!")
   nuxt.renderRoute('/', { request }).then((result) => {
     response.send(result.html)
   }).catch((error) => {
