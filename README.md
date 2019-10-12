@@ -1,6 +1,6 @@
 # firebase-ssr
 
-> My cat&#39;s meow Nuxt.js project
+Template of nuxt and firebase for SSR.
 
 ## Build Setup
 
